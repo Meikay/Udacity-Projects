@@ -1,0 +1,44 @@
+h1, h2, p {
+  font-family: 'Enriqueta', serif;
+}
+  hr.style-four {
+    height: 12px;
+    width: 100%;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* add media queries and make sure everything is responsive */
+/* add margin to container to contain the content and align */
+
+.logo {
+  padding-right: 20px;
+}
+/* fix name and dev position */
+.box {
+  padding-left: 30%;
+}
+/* fix size and span of image to be aligned with other content */
+.hero-image {
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  position: center;
+}
+
+/* space out pics */
+.pixel {
+  width: 100%;
+}
+.photo {
+  width: 100%;
+}
+.cat {
+  width: 100%;
+}
+
+/* Flex-box */
+.links {
+  display: flex;
+  justify-content: space-around;
+}
