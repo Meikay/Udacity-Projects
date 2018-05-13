@@ -21,7 +21,7 @@ h1, h2, p {
   /* padding-left: 30%; */
   float: right;
 }
-/* image to be aligned with other content */
+/* image to be aligned with other content -used https://codetheweb.blog/2017/12/07/fullscreen-image-hero/ and another website as reference for this code. (I tried looking, but wasn't able to remember the second website)*/
 .hero-image {
   padding-top: 20px;
   position: relative;
