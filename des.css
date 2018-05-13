@@ -18,7 +18,7 @@ h1, h2, p {
 }
 /* name and dev- when it reaches a certain amount of pixels, add a media query to shrink the font size*/
 .box {
-  padding-left: 30%;
+  /* padding-left: 30%; */
   float: right;
 }
 /* image to be aligned with other content */
@@ -49,7 +49,7 @@ h1, h2, p {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin:auto;
+  margin: auto;
 }
 
 .work {
@@ -80,6 +80,7 @@ make pics spread out and add margin */
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    margin: auto;
   }
   .pixel, .photo, .cat {
     width: 100%;
