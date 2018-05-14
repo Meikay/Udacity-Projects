@@ -1,3 +1,7 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 h1, h2, p {
   font-family: 'Enriqueta', serif;
 }
@@ -14,14 +18,11 @@ h1, h2, p {
 
 .logo {
   padding-right: 20px;
-  float: left;
+  /* float: left; */
 }
 /* name and dev- when it reaches a certain amount of pixels, add a media query to shrink the font size*/
-.box {
-  /* padding-left: 30%; */
-  float: right;
-}
-/* image to be aligned with other content -used https://codetheweb.blog/2017/12/07/fullscreen-image-hero/ and another website as reference for this code. (I tried looking, but wasn't able to remember the second website)*/
+
+/* image to be aligned with other content */
 .hero-image {
   padding-top: 20px;
   position: relative;
