@@ -49,6 +49,10 @@ p {
     padding-right: 20px;
 
 }
+
+img  {
+  border: 0;
+}
 /* name and dev- when it reaches a certain amount of pixels, add a media query to shrink the font size*/
 
 /* image to be aligned with other content */
