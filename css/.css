@@ -1,1 +1,104 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+
+
+h1, h2, p {
+  font-family: 'Enriqueta', serif;
+}
+  hr.style-four {
+    height: 12px;
+    width: 100%;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    clear: both;
+}
+h1, h2, p {
+  color: #1f1b5d;
+}
+
+/* add media queries and make sure everything is responsive */
+/* add margin to container to contain the content and align */
+
+.logo {
+  padding-right: 20px;
+  /* float: left; */
+}
+/* name and dev- when it reaches a certain amount of pixels, add a media query to shrink the font size*/
+
+/* image to be aligned with other content */
+.hero-image {
+   padding-top: 20px;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* when website spreads out, pics line horizontally */
+.pixel {
+  width: 100%;
+}
+.photo {
+  width: 100%;
+}
+.cat {
+  width: 100%;
+}
+
+/* Flex-box */
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.work {
+  text-align: center;
+}
+
+/* responsive design */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+hero-image {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+/* common responsive patterns lesson */
+/* pics line up horizontally as browser gets bigger */
+@media screen and (min-width: 450px) {
+  .project-one, .project-two {
+    width: 50%;
+  }
+  .project-three {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .project-one, .project-two, .project-three {
+    width: 33.333333%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .links {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
